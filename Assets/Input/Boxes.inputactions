@@ -1,0 +1,54 @@
+{
+    "name": "Boxes",
+    "maps": [
+        {
+            "name": "BoxMap",
+            "id": "6122d39b-e746-47b2-aa44-1a4cd8eeb89b",
+            "actions": [
+                {
+                    "name": "SpawnBox",
+                    "type": "Button",
+                    "id": "1d911c45-bf87-46b1-98a2-9350757c94aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DestroyGameObjects",
+                    "type": "Button",
+                    "id": "e54cff12-b3e4-4d73-b435-2f53172bc571",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e61b0737-52ae-487b-829c-0b5e1f265d7b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnBox",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a03ff1e0-5af5-4f34-a439-dc6bef2063cf",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DestroyGameObjects",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
